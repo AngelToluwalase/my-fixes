@@ -63,6 +63,7 @@ header h1 {
   font-family: 'Lato',sans-serif;
   text-transform: uppercase;
   font-weight: 900;
+  font-size: smaller;
 }
 .small {
   margin-top: 1em;
@@ -78,14 +79,20 @@ article {
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float:right
 }
 article figcaption {
-  font-size: inherit;
+  font-size: smaller;
+  font-weight: lighter;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .pagination {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 a.button {
   border: 2px solid #888;
@@ -96,11 +103,12 @@ a.button {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
+  background-color: blueviolet;
 }
 a.button:hover, a.button:active {
   border: 1px solid #444;
   text-decoration: none;
-  color: #222;
+  color: #f8050500;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
