@@ -75,6 +75,7 @@ article {
   line-height: 1.3;
   margin-left: auto;
   margin-right: auto;
+  .dropcap
 }
 article figure {
   width: 39%;
@@ -103,12 +104,12 @@ a.button {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
-  background-color: blueviolet;
+  background-color: rgb(186, 137, 231);
 }
 a.button:hover, a.button:active {
   border: 1px solid #444;
   text-decoration: none;
-  color: #f8050500;
+  color: #ec6ca500;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
